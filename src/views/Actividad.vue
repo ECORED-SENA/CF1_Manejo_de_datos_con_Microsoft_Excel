@@ -143,7 +143,7 @@ export default {
         {
           id: 6,
           texto:
-            'matemáticos Excel almacena los datos de tipo Fecha y Hora como texto, lo que impide realizar cálculos matemáticos con ellos.',
+            'Excel almacena los datos de tipo Fecha y Hora como texto, lo que impide realizar cálculos matemáticos con ellos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
