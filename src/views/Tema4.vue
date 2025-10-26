@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
-      h1 Operadores para la creación de formulas
+      h1 Operadores para la creación de fórmulas
     
     p Los operadores son símbolos que indican el tipo de cálculo que Excel debe realizar dentro de una fórmula. Son, en esencia, los verbos de las fórmulas: conectan valores, referencias y expresiones para producir resultados nuevos y dinámicos.
 
@@ -130,7 +130,7 @@
                   tbody.bg-color-white
                     tr
                       td &
-                      td Ampersand
+                      td <i>Ampersand</i>
                       td ="Juan"&" "&"Pérez"
                       td "Juan Pérez"
                     

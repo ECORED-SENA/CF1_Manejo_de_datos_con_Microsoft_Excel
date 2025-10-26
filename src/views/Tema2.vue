@@ -24,23 +24,10 @@
         
         p.mb-5 Excel reconoce automáticamente distintos tipos de datos al ingresarlos en una celda, clasificándolos principalmente en: numéricos, texto, fecha/hora, lógicos y errores (Alexander & Walkenbach, 2019). Sin embargo, aunque esta detección es útil, se recomienda verificar y asignar el tipo correcto, ya que esto influye directamente en la forma en que se almacena la información y en las operaciones que pueden realizarse con ella.  A continuación, se presenta un video que explica los tipos de datos más comunes en Excel, detallando sus características, usos y particularidades para una gestión eficiente de la información.
 
-        .row.mb-5.align-items-center
-          .col-lg-5.order-lg-2.mb-3.mb-lg-0
-            figure
-              img(src="@/assets/curso/tema2/2.png", data-aos="zoom-in")
-          .col-lg-7.order-lg-1
-            .row.justify-content-center.align-items-center.bg-color-10.p-4.tarjeta
-              .col-lg-5.mb-3.mb-lg-0
-                figure
-                  img(src="@/assets/curso/tema2/3.svg", data-aos="zoom-in")
-              .col-lg-7
-                h2(data-aos="fade-left").mb-4.text-white Pódcast
-        
-                TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                  texto="Tipos de datos "
-                  tiempo
-                  :audio="require('../assets/curso/podcast/podcast1.mp3')"
-                )
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/UpdMxPZeTIk?si=huQ6A2g53gt1AS5z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mb-5 A continuación, se presenta una tabla resumen con los principales tipos de datos que se pueden trabajar en Excel:
 
@@ -66,7 +53,7 @@
             td 1500, 3.1416, 5.25%
           tr
             td Fecha/Hora
-            td Valores que representan fechas y horas. Excel los almacena internamente como números de serie, lo que permite realizar cálculos con ellos (ej. calcular días entre dos fechas).
+            td Valores que representan fechas y horas. Excel los almacena internamente como números de serie, lo que permite realizar cálculos con ellos (eje., calcular días entre dos fechas).
             td 30/09/2025, 11:15 AM, 30/09/2025 11:15
           tr.bg-color-11
             td Booleano
@@ -135,7 +122,7 @@
               .col-5
                 img(src='@/assets/curso/tema2/10.svg' alt='AvatarTop')
             h2.text-center Alineación
-            p.text-center Controla la posición del contenido dentro de la celda, tanto horizontal como verticalmente. Incluye opciones como Ajustar texto y Combinar y centrar.
+            p.text-center Controla la posición del contenido dentro de la celda, tanto horizontal como verticalmente. Incluye opciones como ajustar texto y combinar y centrar.
           .tarjeta.bg-color-5.p-4
             .row.justify-content-center.mb-3
               .col-5
@@ -153,7 +140,7 @@
               .col-5
                 img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop')
             h2.text-center Relleno
-            p.text-center Cambia el color de fondo de una celda, útil para resaltar encabezados o valores relevante
+            p.text-center Cambia el color de fondo de una celda, útil para resaltar encabezados o valores relevantes.
     
     h3.bg-color-14.d-inline.p-3.tarjeta Actividad práctica
     
@@ -184,7 +171,7 @@
                   th.bg-color-2 Total Venta
               tbody.bg-color-white
                 tr
-                  td Laptop
+                  td <i>Laptop</i>
                   td 30/09/2025
                   td 5
                   td 2,500,000
@@ -214,10 +201,10 @@
               p.mb-0 Aplique negrita y un color de relleno a la fila de encabezados (primera fila).
             li.mb-0.d-flex
               i.fas.fa-circle-check.bg-color-12
-              p.mb-0 Verifique que la columna Fecha de Venta tenga formato de Fecha.
+              p.mb-0 Verifique que la columna fecha de venta tenga formato de fecha.
             li.mb-0.d-flex
               i.fas.fa-circle-check.bg-color-12
-              p.mb-0 Aplique el formato de Contabilidad (símbolo de peso $, sin decimales) a las columnas Precio Unitario y Total Venta.
+              p.mb-0 Aplique el formato de contabilidad (símbolo de peso $, sin decimales) a las columnas precio unitario y total venta.
             li.mb-0.d-flex
               i.fas.fa-circle-check.bg-color-12
               p.mb-0 Centre horizontal y verticalmente todos los datos de la tabla.

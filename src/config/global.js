@@ -96,7 +96,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Operadores para la creación de formulas',
+        titulo: 'Operadores para la creación de fórmulas',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -114,12 +114,12 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Formulas y funciones',
+        titulo: 'Fórmulas y funciones',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '5.1',
-            titulo: '¿Formula o función?',
+            titulo: '¿Fórmula o función?',
             hash: 't_5_1',
           },
           {
@@ -182,21 +182,21 @@ export default {
   },
   complementario: [
     {
-      tema: 'Funciones y formulas',
+      tema: 'Funciones y fórmulas',
       referencia:
-        'Held, B., Moriarty, B., & Richardson, T. (2019). Microsoft excel functions and formulas with excel 2019/office 365. Walter de Gruyter GmbH & Co KG.',
+        'Held, B., Moriarty, B., & Richardson, T. (2019). Microsoft excel functions and fórmulas with excel 2019/office 365. Walter de Gruyter GmbH & Co KG.',
       tipo: 'Libro',
       link: 'https://n9.cl/6vclx',
     },
     {
-      tema: 'Funciones y formulas',
+      tema: 'Funciones y fórmulas',
       referencia:
         'Alexander, M., Kusleika, R., & Walkenbach, J. (2018). Excel 2019 bible. John Wiley & Sons.',
       tipo: 'Libro',
       link: 'https://n9.cl/xdysv',
     },
     {
-      tema: 'Funciones y formulas',
+      tema: 'Funciones y fórmulas',
       referencia: 'Microsoft 365. (2025). Microsoft Excel.',
       tipo: 'Página web',
       link: 'https://www.microsoft.com/es-co/microsoft-365/excel',
@@ -274,7 +274,7 @@ export default {
     },
     {
       referencia:
-        'McFedries, P. (2019). Microsoft Excel 2019 formulas and functions. Microsoft Press.',
+        'McFedries, P. (2019). Microsoft Excel 2019 fórmulas and functions. Microsoft Press.',
       link: '',
     },
     {

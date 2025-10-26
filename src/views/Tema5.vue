@@ -53,7 +53,7 @@
     .row.justify-content-center.mb-5
       .col-lg-5
         .bg-color-5.p-4.text-center
-          h5.mb-0 =NOMBRE_FUNCION(argumento1; argumento2; ...)
+          h5.mb-0 =NOMBRE_FUNCIÓN (argumento1; argumento2; ...)
 
     .bg-full-width.bg-color-4
       .px-5.mb-5
@@ -117,7 +117,7 @@
                     ul.lista-ul--color.mb-0.ms-4
                       li.mb-2.d-flex
                         i.fas.fa-circle-check.bg-color-12
-                        p.mb-0 Escribiendo directamente: comience a escribir el nombre de la función. Excel desplegará una lista de sugerencias (IntelliSense). Haga doble clic en la opción deseada.
+                        p.mb-0 Escribiendo directamente: comience a escribir el nombre de la función. Excel desplegará una lista de sugerencias (<i>IntelliSense</i>). Haga doble clic en la opción deseada.
                       li.mb-2.d-flex
                         i.fas.fa-circle-check.bg-color-12
                         p.mb-0 Usando el asistente: vaya a la pestaña Fórmulas y haga clic en Insertar función (fx). Se abrirá un cuadro de diálogo donde podrá buscar funciones por categoría e ingresar los argumentos paso a paso.
@@ -147,19 +147,19 @@
                 ul.lista-ul--color.mb-0.ms-5
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 SUMA(rango): Suma todos los números en un rango de celdas.
+                    p.mb-0 SUMA(rango): suma todos los números en un rango de celdas.
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 PROMEDIO(rango): Calcula el promedio (media aritmética) de los números en un rango.
+                    p.mb-0 PROMEDIO(rango): calcula el promedio (media aritmética) de los números en un rango.
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 CONTAR(rango): Cuenta cuántas celdas contienen números en un rango.
+                    p.mb-0 CONTAR(rango): cuenta cuántas celdas contienen números en un rango.
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 MAX(rango): Devuelve el valor más alto en un rango.
+                    p.mb-0 MAX(rango): devuelve el valor más alto en un rango.
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 MIN(rango): Devuelve el valor más bajo en un rango.
+                    p.mb-0 MIN(rango): devuelve el valor más bajo en un rango.
               div(titulo="Función lógica").justify-content-center
                 p.ms-5 SI(prueba_logica; valor_si_verdadero; valor_si_falso): Es una de las funciones más potentes. Evalúa una condición (prueba_logica). Si la condición es VERDADERA, devuelve un valor; si es FALSA, devuelve otro.
                 p.ms-5 Ejemplo: =SI(A1>=18; "Mayor de edad"; "Menor de edad").
@@ -167,24 +167,24 @@
                 ul.lista-ul--color.mb-0.ms-5
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 CONCAT(texto1; texto2; ...): Une varias cadenas de texto en una sola (alternativa al operador &).
+                    p.mb-0 CONCAT(texto1; texto2; ...): une varias cadenas de texto en una sola (alternativa al operador &).
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 IZQUIERDA(texto; num_caracteres): Devuelve el número especificado de caracteres desde el inicio de una cadena de texto.
+                    p.mb-0 IZQUIERDA(texto; num_caracteres): devuelve el número especificado de caracteres desde el inicio de una cadena de texto.
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 DERECHA(texto; num_caracteres): Devuelve el número especificado de caracteres desde el final de una cadena de texto.
+                    p.mb-0 DERECHA(texto; num_caracteres): devuelve el número especificado de caracteres desde el final de una cadena de texto.
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 LARGO(texto): Devuelve el número de caracteres en una cadena de texto.
+                    p.mb-0 LARGO(texto): devuelve el número de caracteres en una cadena de texto.
               div(titulo="Funciones de fecha y hora").justify-content-center
                 ul.lista-ul--color.mb-0.ms-5
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 HOY(): Devuelve la fecha actual. No requiere argumentos.
+                    p.mb-0 HOY(): devuelve la fecha actual. No requiere argumentos.
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 AHORA(): Devuelve la fecha y hora actuales. No requiere argumentos.
+                    p.mb-0 AHORA(): devuelve la fecha y hora actuales. No requiere argumentos.
 
         h3.bg-color-14.d-inline.p-3.tarjeta Actividad práctica
         p.mb-5.mt-5 Para afianzar el uso de funciones básicas en Excel, se propone una actividad que permite aplicar operaciones comunes sobre un conjunto de datos sencillo.
@@ -244,19 +244,19 @@
                 ul.lista-ul--color.mb-0.ms-5
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 Total de Ventas: (Use SUMA).
+                    p.mb-0 Total de ventas: (Use SUMA).
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 Venta Promedio: (Use PROMEDIO).
+                    p.mb-0 Venta promedio: (Use PROMEDIO).
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 Venta Más Alta: (Use MAX).
+                    p.mb-0 Venta más alta: (Use MAX).
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 Venta Más Baja: (Use MIN).
+                    p.mb-0 Venta más baja: (Use MIN).
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-12
-                    p.mb-0 Número de Vendedores: (Use CONTAR).
+                    p.mb-0 Número de vendedores: (Use CONTAR).
                 ol.lista-ol--cuadro
                   li.d-flex
                     .lista-ol--cuadro__vineta

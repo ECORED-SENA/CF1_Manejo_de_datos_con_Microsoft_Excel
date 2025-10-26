@@ -15,7 +15,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/intro/1.png')})`}"
       )(data-aos="zoom-in")
       .bloque-texto-g__texto.p-4
-        p.mb-0 Es por eso por lo que, el dominio de Excel va más allá de la simple introducción de datos en una cuadrícula. Su verdadero poder reside en la capacidad de automatizar cálculos, manipular grandes volúmenes de información y generar reportes significativos a través del uso de fórmulas y funciones.
+        p.mb-0 Es por eso por lo que el dominio de Excel va más allá de la simple introducción de datos en una cuadrícula. Su verdadero poder reside en la capacidad de automatizar cálculos, manipular grandes volúmenes de información y generar reportes significativos a través del uso de fórmulas y funciones.
     
     .bg-color-1.mb-5
       .p-4
@@ -23,7 +23,7 @@
           .col-lg-auto.order-2
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg.order-1.mb-3.mb-lg-0
-            p.mb-0 Este componente formativo se ha diseñado para guiarlo, en el desarrollo de las competencias necesarias para estructurar datos en hojas de cálculo utilizando fórmulas, funciones y los requerimientos del entorno. Al finalizar, usted no solo comprenderá la anatomía de una hoja de cálculo, sino que también será capaz de construir fórmulas personalizadas y robustas, utilizar funciones predeterminadas y presentar sus datos de una manera clara y profesional, sentando las bases para análisis más complejos en el futuro.
+            p.mb-0 Este componente formativo se ha diseñado para guiarlo en el desarrollo de las competencias necesarias para estructurar datos en hojas de cálculo utilizando fórmulas, funciones y los requerimientos del entorno. Al finalizar, usted no solo comprenderá la anatomía de una hoja de cálculo, sino que también será capaz de construir fórmulas personalizadas y robustas, utilizar funciones predeterminadas y presentar sus datos de una manera clara y profesional, sentando las bases para análisis más complejos en el futuro.
 
 </template>
 
