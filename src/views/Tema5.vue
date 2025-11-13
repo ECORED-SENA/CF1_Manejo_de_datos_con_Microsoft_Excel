@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 Formulas y funciones
+      h1 Fórmulas y funciones
     
     p Excel permite no solo almacenar datos, sino también realizar cálculos automáticos y estructurados mediante el uso de fórmulas y funciones. Estas herramientas convierten los valores ingresados en resultados útiles, facilitando la gestión, análisis y actualización dinámica de la información.
 
@@ -14,7 +14,7 @@
     .bg-full-width.bg-color-4
       .px-5.mb-5
         #t_5_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 5.1 ¿Formula o función?
+          h2 5.1 ¿Fórmula o función?
         
         p.mb-5 Aunque en el uso cotidiano ambos términos pueden confundirse, es importante distinguirlos con claridad, ya que cumplen roles distintos en Excel. A continuación, se explica cada concepto:
 
