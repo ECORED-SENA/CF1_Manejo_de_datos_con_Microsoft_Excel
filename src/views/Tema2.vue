@@ -22,7 +22,13 @@
         #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 2.1 Tipos de datos
         
-        p.mb-5 Excel reconoce automáticamente distintos tipos de datos al ingresarlos en una celda, clasificándolos principalmente en: numéricos, texto, fecha/hora, lógicos y errores (Alexander & Walkenbach, 2019). Sin embargo, aunque esta detección es útil, se recomienda verificar y asignar el tipo correcto, ya que esto influye directamente en la forma en que se almacena la información y en las operaciones que pueden realizarse con ella.  A continuación, se presenta un podcast que explica los tipos de datos más comunes en Excel, detallando sus características, usos y particularidades para una gestión eficiente de la información.
+        p.mb-5 Excel reconoce automáticamente distintos tipos de datos al ingresarlos en una celda, clasificándolos principalmente en: numéricos, texto, fecha/hora, lógicos y errores (Alexander & Walkenbach, 2019). Sin embargo, aunque esta detección es útil, se recomienda verificar y asignar el tipo correcto, ya que esto influye directamente en la forma en que se almacena la información y en las operaciones que pueden realizarse con ella.  A continuación, se presenta un video que explica los tipos de datos más comunes en Excel, detallando sus características, usos y particularidades para una gestión eficiente de la información.
+    
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/UpdMxPZeTIk?si=huQ6A2g53gt1AS5z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    separador
 
     p.mb-5 A continuación, se presenta una tabla resumen con los principales tipos de datos que se pueden trabajar en Excel:
 
