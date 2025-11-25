@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p . A continuación, se presenta una síntesis de la temática estudiada en el componente formativo 
+    p A continuación, se presenta una síntesis de la temática estudiada en el componente formativo 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure

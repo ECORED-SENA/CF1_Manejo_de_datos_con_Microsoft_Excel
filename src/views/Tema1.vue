@@ -9,7 +9,7 @@
     
     .bg-full-width.bg-color-4
       .px-5.mb-5
-        p Para trabajar eficazmente con <i>Microsoft</i> Excel, es necesario comprender tanto la estructura de los archivos como los elementos que conforman su interfaz. A continuación, se aborda los conceptos clave que permiten organizar, manipular y analizar datos dentro del entorno de Excel.
+        p Para trabajar eficazmente con Microsoft Excel, es necesario comprender tanto la estructura de los archivos como los elementos que conforman su interfaz. A continuación, se aborda los conceptos clave que permiten organizar, manipular y analizar datos dentro del entorno de Excel.
 
         separador
         
@@ -22,8 +22,8 @@
               img(src="@/assets/curso/tema1/1.png", data-aos="zoom-in")
           .col-lg-8.order-lg-1
             .bg-color-2.p-3.mb-3
-              p.mb-0(data-aos="fade-left") <i>Microsoft</i> Excel es una aplicación de hoja de cálculo que organiza la información en una estructura bidimensional compuesta por filas y columnas. La intersección entre ambas genera una celda, que constituye la unidad básica de almacenamiento de datos (Walkenbach, 2013).
-            p Un libro de trabajo está compuesto por una o más hojas de cálculo, cada una con capacidad para hasta 1,048,576 filas y 16,384 columnas (<i>Microsoft Corporation</i>, 2021). Las filas se identifican numéricamente (1, 2, 3...) y las columnas alfabéticamente (A, B, C... AA, AB...), lo que permite referenciar cada celda de manera única (por ejemplo, A1, B5, C10).
+              p.mb-0(data-aos="fade-left") Microsoft Excel es una aplicación de hoja de cálculo que organiza la información en una estructura bidimensional compuesta por filas y columnas. La intersección entre ambas genera una celda, que constituye la unidad básica de almacenamiento de datos (Walkenbach, 2013).
+            p Un libro de trabajo está compuesto por una o más hojas de cálculo, cada una con capacidad para hasta 1,048,576 filas y 16,384 columnas (Microsoft Corporation, 2021). Las filas se identifican numéricamente (1, 2, 3...) y las columnas alfabéticamente (A, B, C... AA, AB...), lo que permite referenciar cada celda de manera única (por ejemplo, A1, B5, C10).
             .row.justify-content-center
               .col-md-10
                 div.bg-color-3.p-3(data-aos="fade-up").text-center
@@ -60,7 +60,7 @@
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-5")
           .div(titulo="Libro de trabajo")
-            p Archivo principal con extensión .xlsx. Actúa como un contenedor de hojas de cálculo relacionadas (<i>Microsoft Corporation</i>, 2025).
+            p Archivo principal con extensión .xlsx. Actúa como un contenedor de hojas de cálculo relacionadas (Microsoft Corporation, 2025).
     
           .div(titulo="Hoja de cálculo")
             p También llamada <i>worksheet</i>. Es la cuadrícula principal donde se introducen y manipulan datos. Se pueden agregar, eliminar o reorganizar hojas dentro del libro.

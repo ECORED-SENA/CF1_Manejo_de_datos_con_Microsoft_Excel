@@ -69,18 +69,18 @@
           tr
             td Relativa
             td A1
-            td Se ajusta automáticamente a la nueva posición. Ejemplo: =A1+B1 en C1 se convierte en =A2+B2 al copiar a C2.
-            td Cuando se desea repetir un cálculo en varias filas o columnas.
+            td.txt-p1 Se ajusta automáticamente a la nueva posición. Ejemplo: =A1+B1 en C1 se convierte en =A2+B2 al copiar a C2.
+            td.txt-p1 Cuando se desea repetir un cálculo en varias filas o columnas.
           tr
             td Absoluta
             td $A$1
-            td Se mantiene fija al copiar la fórmula; no se adapta a la nueva posición.
-            td Cuando se necesita hacer referencia a un valor constante, como una tasa fija o celda clave.
+            td.txt-p1 Se mantiene fija al copiar la fórmula; no se adapta a la nueva posición.
+            td.txt-p1 Cuando se necesita hacer referencia a un valor constante, como una tasa fija o celda clave.
           tr
             td Mixta
             td $A1 o A$1
-            td Solo una parte (columna o fila) se mantiene fija. =A$1 fija la fila 1; =$A1 fija la columna A.
-            td Ideal para tablas de doble entrada o fórmulas que combinan elementos fijos y variables.
+            td.txt-p1 Solo una parte (columna o fila) se mantiene fija. =A$1 fija la fila 1; =$A1 fija la columna A.
+            td.txt-p1 Ideal para tablas de doble entrada o fórmulas que combinan elementos fijos y variables.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo

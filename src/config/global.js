@@ -166,7 +166,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/Excel_CF01_DU.pdf',
+        download: 'downloads/21710122_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -186,14 +186,16 @@ export default {
       referencia:
         'Held, B., Moriarty, B., & Richardson, T. (2019). Microsoft excel functions and fórmulas with excel 2019/office 365. Walter de Gruyter GmbH & Co KG.',
       tipo: 'Libro',
-      link: 'https://n9.cl/6vclx',
+      link:
+        'https://books.google.com.co/books?hl=es&lr=&id=LEZ-EQAAQBAJ&oi=fnd&pg=PP18&dq=excel+2019+Formulas+and+Functions&ots=RRdtQ42zMk&sig=Dc_PvBBBpPM60SwEhDmi7rZrtIw&redir_esc=y#v=onepage&q=excel%202019%20Formulas%20and%20Functions&f=false',
     },
     {
       tema: 'Funciones y fórmulas',
       referencia:
         'Alexander, M., Kusleika, R., & Walkenbach, J. (2018). Excel 2019 bible. John Wiley & Sons.',
       tipo: 'Libro',
-      link: 'https://n9.cl/xdysv',
+      link:
+        'https://books.google.com.co/books?hl=es&lr=&id=mxJwDwAAQBAJ&oi=fnd&pg=PP1&dq=excel+2019+Formulas+and+Functions&ots=raDtqOXRwC&sig=fhIuMNi4tWG5jRu9nNflJFI8-p4&redir_esc=y#v=onepage&q=excel%202019%20Formulas%20and%20Functions&f=false',
     },
     {
       tema: 'Funciones y fórmulas',
@@ -318,13 +320,13 @@ export default {
       autores: [
         {
           nombre: 'Deya Maritza Cortes Enríquez',
-          cargo: 'Experto Temático',
+          cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios – Regional Tolima',
         },
 
         {
           nombre: 'Paola Alexandra Moya',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -334,8 +336,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'xyz xyz',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Carlos Julián Ramírez Benítez',
+          cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -347,19 +349,19 @@ export default {
         },
         {
           nombre: 'Alejandro Delgado Acosta',
-          cargo: 'Intérprete Lenguaje de señas',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Cristhian Giovanni Gordillo Segura',
-          cargo: 'Intérprete Lenguaje de señas',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -377,25 +379,25 @@ export default {
       autores: [
         {
           nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Raúl Mosquera Serrano',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
